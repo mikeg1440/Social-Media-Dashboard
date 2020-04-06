@@ -26,9 +26,33 @@
       justify-content: space-between;
     }
 
+    .social-container {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 30px;
+      grid-row-gap: 0px;
+    }
+
+    .social-count {
+      font-size: 80px;
+    }
+
     .social-card {
       background-color:  hsl(227, 47%, 96%);
       padding: 1rem;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 2fr repeat(2, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      border-top: 3px solid;
+      border-radius: 5px;
+    }
     }
   </style>
 </head>
